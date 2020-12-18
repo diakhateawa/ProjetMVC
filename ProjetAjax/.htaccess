@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteRule ^accueil$ accueil.php
+RewriteRule ^.{0}$ index.php
+RewriteRule ^regions$ view/region/liste.php
+RewriteRule ^departements$ view/departement/liste.php
+
+
+RewriteRule ^regionController$ controller/regionController.php
+
+RewriteRule ^departementController$ controller/departementController.php
+

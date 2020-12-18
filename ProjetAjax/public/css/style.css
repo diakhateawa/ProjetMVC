@@ -1,0 +1,19 @@
+div{
+    border: 1px dotted gray;
+    margin:10px;
+    padding:10px;
+}
+#divReg{
+    display: inline;
+
+}
+table tr{
+    padding: 10px;
+    background: white;
+    border: 1px dotted gray;;
+}
+table td{
+    padding: 10px;
+    background: rgb(129, 59, 59);
+    border: 1px dotted gray;;
+}
